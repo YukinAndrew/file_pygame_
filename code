@@ -1,0 +1,47 @@
+#list_nums = [1, 2, 3, 4, 5]
+#print(list_nums[3] == list_nums[-2])
+#print(list_nums)
+
+
+import pygame
+import
+pygame.init()
+W = 600
+H = 400
+win = pygame.display.set_mode((W, H))
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+
+list_circles = []
+for i in range(0, W, 50):
+    list_circles.append([i, i])
+
+win.fill(WHIDE)
+for xy in list_circles:
+    pygame.draw.circle(win, random, choices(range(0, 255), k=3), xy, 30)
+    for x in range(0, W, W // 8 * 2):
+        pygame.draw-rect(win, BLACK, (x, y, W // 8, H // 8))
+
+
+while True:
+    for i in pygame.event.get():
+        if i.type == pygame.QUIT:
+            exit()
+
+keys = pygame.key.get_pressed()
+if keys[pygame]
+
+win.fill(WHITE)
+for xy in list_circles:
+    xy[ xy: list]
+    if xy[0] = > W:
+        xy[0] = 0
+        pygame.draw.circle(win, random, choices(range(0, 255), k=3), xy, 30)
+    pygame.draw.circle
+
+
+    Petya = Human()
+    def say_hello()
+    print(Petya.eye.color)
+Petya.say_hello()
